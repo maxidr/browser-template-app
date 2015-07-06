@@ -1,0 +1,28 @@
+{
+  "name": "browser-template-app",
+  "version": "1.0.0",
+  "description": "A base template to build browser app",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/maxidr/browser-template-app.git"
+  },
+  "keywords": [
+    "startup",
+    "bootstrap",
+    "browser",
+    "template"
+  ],
+  "author": "Maximiliano Dello Russo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/maxidr/browser-template-app/issues"
+  },
+  "homepage": "https://github.com/maxidr/browser-template-app",
+  "devDependencies": {
+    "gulp": "^3.9.0"
+  }
+}
