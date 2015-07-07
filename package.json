@@ -1,28 +1,37 @@
 {
-  "name": "browser-template-app",
+  "name": "movie-station",
   "version": "1.0.0",
-  "description": "A base template to build browser app",
+  "description": "A movie search an player for my raspberry pi",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/maxidr/browser-template-app.git"
+    "url": "https://github.com/maxidr/movie-station.git"
   },
   "keywords": [
-    "startup",
-    "bootstrap",
-    "browser",
-    "template"
+    "torrent",
+    "player",
+    "movie"
   ],
   "author": "Maximiliano Dello Russo",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/maxidr/browser-template-app/issues"
+    "url": "https://github.com/maxidr/movie-station/issues"
   },
-  "homepage": "https://github.com/maxidr/browser-template-app",
+  "homepage": "https://github.com/maxidr/movie-station",
   "devDependencies": {
-    "gulp": "^3.9.0"
+    "browser-sync": "^2.7.13",
+    "browserify": "^10.2.4",
+    "gulp": "^3.9.0",
+    "gulp-notify": "^2.2.0",
+    "gulp-sourcemaps": "^1.5.2",
+    "gulp-util": "^3.0.6",
+    "lodash.assign": "^3.2.0",
+    "mithril": "^0.2.0",
+    "vinyl-buffer": "^1.0.0",
+    "vinyl-source-stream": "^1.1.0",
+    "watchify": "^3.2.3"
   }
 }
