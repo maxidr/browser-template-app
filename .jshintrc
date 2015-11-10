@@ -1,7 +1,0 @@
-{
-	"strict": false,
-	"browserify": true,
-	"globals": {
-		"require": true
-	}
-}
